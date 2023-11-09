@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sid:Web-dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{background-color: salmon;
+        color:white;
+        font-family: 'Agbalumo',sans-serif;
+        }
+        nav{
+            background-color:firebrick ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none; 
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none; 
+            color: blanchedalmond;
+        }
+        nav ul li a:hover{
+            color:violet;
+        }
+        .left{
+            font-size: 1.4rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+            margin: 65px;
+        }
+        .firstSection div{
+            width:30%;
+        }
+        .leftSection{
+            font-size: 2.2rem;
+            margin:70px 0;
+        }
+        .rightSection img { 
+            margin:"50px 0";
+        }
+        .matte{
+            color: brown;
+        }
+        #element{
+            color: brown; 
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            background-color: brown;
+            border: 1;
+            height: 1.2px;
+            margin:40px 84px;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secondSection .box{
+            background-color: red;
+            width: 80vw;
+            height: 2px;
+            margin:  56 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 2px;
+            background-color: red;
+            margin: 0 100px;
+        }
+        .image-top{
+            width: 150px;
+            position: relative;
+            top:15px;
+            left: 15px;    
+        }
+        .vertical-title{
+            position: relative;
+            top:15px;
+            left: 15px;
+            }
+        .vertical-desc{
+            position: relative;
+            color: blueviolet;
+            width: 150px;
+            top:15px;
+            left: 15px;
+        }
+        footer{
+            background-color: burlywood;
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 123px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sidharth's Portfolio</div>
+            <div class="right">
+                <ul><li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="matte">Sid</span>  ,<br>I am a Web Dev intern <br>and an<br>entusiastic learner
+                <br><span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="2596842.png" width="80%"> 
+                </div>
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray" >what have I done so far:</span>
+            <h1>projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Screenshot 2023-04-18 121337.png" >
+                    <div class="vertical-title">
+                        Book reccomender.
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, voluptatibus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Screenshot 2023-11-05 171313.png" >
+                    <div class="vertical-title">
+                        Desktop Assistant.
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, voluptatibus.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Screenshot 2023-11-09 211559.png" >
+                    <div class="vertical-title">
+                        Pet Store website.
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, voluptatibus.
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first"><h3>Sidharth's Portfolio</h3></div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+                    <li>T&C</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+                    <li>T&C</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+                    <li>T&C</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developement Intern'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</body>
+</html>
